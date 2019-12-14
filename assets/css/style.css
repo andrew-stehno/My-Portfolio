@@ -15,7 +15,7 @@ body {
     text-align: center;
     margin-top: 20%;
     animation: fadein 5s;
-    -ms-animation: fadein 2s; /* Internet Explorer */
+    -ms-animation: fadein 5s; /* Internet Explorer */
 }
 
 .motto {
@@ -25,8 +25,7 @@ body {
     text-align: center;
     margin-bottom: 210px;
     animation-delay: 4s;
-    animation: fadein 4s;
-
+    animation: fadein2 4s;
 }
 
 @keyframes fadein {
@@ -38,6 +37,19 @@ body {
 @-ms-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@keyframes fadein2 {
+    0% { opacity: 0; }
+    50% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein2 {
+    0% { opacity: 0; }
+    50% { opacity: 0;}
+    100% { opacity: 1;}
 }
 
 .portfolio,
@@ -57,7 +69,7 @@ body {
 
 .projects {
     text-align: center;
-    color: blue;
+    color: #1E90FF;
     font-family: 'Lobster', cursive;
     font-size: 24px;
     transform: rotate(-5deg);
@@ -73,6 +85,6 @@ body {
 
 #page {
     text-align: center;
-    color: blue;
     font-family: 'Lobster', cursive;
+    color: dodgerblue;
 }
