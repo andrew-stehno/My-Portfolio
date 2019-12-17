@@ -136,11 +136,15 @@ body {
 
 .about-me {
     color: white;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Lobster', cursive;
     text-align: center;
 }
 
 .contact p {
     font-size: 24px;
+}
+
+.cont {
+    margin-top: 120px;
 }
