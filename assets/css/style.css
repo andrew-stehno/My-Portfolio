@@ -97,6 +97,10 @@ body {
     100% { opacity: 1;}
 }
 
+.port-bottom {
+    margin-bottom: 100px;
+}
+
 .portfolio,
 .about,
 .contact {
@@ -134,10 +138,15 @@ body {
     color: dodgerblue;
 }
 
+.about-image {
+    float: left;
+    margin-bottom: 75px;
+}
+
 .about-me {
     color: white;
-    font-size: 22px;
-    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
@@ -146,5 +155,6 @@ body {
 }
 
 .cont {
+    clear: both;
     margin-top: 120px;
 }
