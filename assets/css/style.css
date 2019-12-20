@@ -124,6 +124,12 @@ body {
     transform: rotate(-5deg);
 }
 
+.repo {
+    text-align: center;
+    transform: rotate(-5deg);
+
+}
+
 .tilt {
     text-align: center;
     color: white;
