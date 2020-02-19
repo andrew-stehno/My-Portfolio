@@ -1,3 +1,5 @@
 # My-Portfolio
 
-This is a simple web page showcasing my abilities and accomplishments.  In its current iteration, it is built merely with HTML and CSS.
+![portfolio](./assets/images/port.png)
+
+Welcome to my personal portfolio.  Here I have showcased some of my accomplishents and have also included a short bio.  Please visit me [here](www.andrewstehno.com).
